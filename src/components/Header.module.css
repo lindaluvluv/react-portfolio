@@ -1,0 +1,25 @@
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigations {
+  list-style: none;
+  display: flex;
+}
+.navigations > li {
+  margin-left: 20px;
+}
+.navigations > li > a {
+  color: #333;
+  text-decoration: none !important;
+}
+
+.activated {
+  color: aqua !important;
+}

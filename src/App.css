@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.App > header {
+  width: 100%;
+  height: 15vh;
+}
+.App > main {
+  width: 100%;
+  height: 75vh;
+  overflow: auto;
+}
+.App > footer {
+  margin-top: 2vh;
+  width: 100%;
+  height: 8vh;
+}
